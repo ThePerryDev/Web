@@ -26,6 +26,30 @@ p, li {
 /*BOTÃO SAIBA MAIS BIANCA LUCAS */
 
 
+/* NOSSO CURSO */
+
+#cinzaCps{
+    background-color: #F0F0F0;
+    padding: 0px;
+    background-image: url(../img/cps.png);
+    background-repeat: no-repeat;
+}
+
+.carousel img{
+    width: 100%;
+    height: auto;
+}
+
+#txtNossoCurso{
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
 /*CARD MÓDULOS MARIANA RAMALHO*/
 
 
