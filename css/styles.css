@@ -95,10 +95,6 @@ p, li {
     font-family: 'Lexend';
 }
 
-#botao-saiba-mais {
-    color: white;
-}
-
 #titulo-aprenda {
     color: white;
     font-size: 48px;
@@ -226,10 +222,6 @@ p, li {
 	width: 320px;
 	height: 80px;
 	border: 0px;
-}
-
-#botao-iniciar{
-    color: white;
 }
 
 /*OS DESENVOLVEDORES WILLIAN GARCIA E LUIS EDUARDO*/
