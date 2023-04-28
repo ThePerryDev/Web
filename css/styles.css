@@ -4,11 +4,17 @@ body{
 }
 
 .row{
-    margin: 0;
+    margin: 0px;
+    margin-right: 0px;
 }
 
 .container{
-    padding: 70px 0;
+    padding: 50px 0;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 p, li {
@@ -90,13 +96,14 @@ p, li {
 
 #base-verde {
     background-color: #004854;
+    padding-top: 0px;
 }
 
 #para-scrum {
     color: white;
-    width: 414px;
+    width: 100%;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 200%;
     margin-top: 8%;
     line-height: 54px;
     font-family: 'Lexend';
@@ -104,18 +111,20 @@ p, li {
 
 #titulo-aprenda {
     color: white;
-    font-size: 48px;
+    font-size: 250%;
     font-weight: 550;
     font-family: 'Lexend';
 }
 
 #margem1 {
     margin-top: 5%;
+    margin-left:-1%;
 }
 
 #margem2 {
     margin-top: 8%;
-    margin-left: 7%;
+    margin-left: 1%;
+
 }
 
 #imgscrum {
@@ -125,16 +134,54 @@ p, li {
 #container {
     align-items: center;
 }
+/*NOSSO CURSO BIANCA LUCAS*/
+#base-cinza{
+    background-color: #F0F0F0;
+    padding: 0px;
+    background-image: url(../img/cps-fundo.png);
+    background-repeat: repeat-y;
+}
+
+#imagem-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+#botao-carousel {
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 45%;
+    width: 50px;
+    height: 50px;
+}
+
+#paraCurso{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill= 'dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
 
 /*BOTÃO SAIBA MAIS BIANCA LUCAS */
 
 #saiba-mais {
 	background: #7E0000;
-	color: white;
+    color: #fff;
     border-radius: 25px;
-    width: 320px;
-    height: 80px;
-    font-size: 36px;
+    border: 0;
+
+    font-size: 200%;
+
+    padding: 5% 5%;
+
     margin-top: 22%;
     margin-block-end: 20%;
     font-family: 'Merriweather';
@@ -142,11 +189,14 @@ p, li {
 
 #saiba-mais:hover {
 	background: #943636;
-	color: white;
+    color: #fff;
     border-radius: 25px;
-    width: 320px;
-    height: 80px;
-    font-size: 36px;
+    border: 0;
+
+    font-size: 200%;
+
+    padding: 5% 5%;
+
     margin-top: 22%;
     margin-block-end: 20%;
     font-family: 'Merriweather';
@@ -214,17 +264,15 @@ p, li {
     font-size: 40px;
     line-height: 150%;
     color: #004854;
+    word-wrap: break-word;
 }
 
 #dese{
     background-color: #F0F0F0;
     background-image: url("../img/Padrão Cinza.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
-#dese2{
-    padding: 66px;
-}
 /*CARDS TIME THEPERRYDEVS*/
 
 #teamcardtotal{
@@ -329,31 +377,37 @@ p, li {
     
 
 /*CONTATO RAFAEL ESTEVAM*/
+#ctt-bg{
+    background-color: #004854;
+}
 
+#titulo-ctt{
+    text-align: center ;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 550;
+    font-family: 'Lexend';
+}
+
+#img-git{
+    width: 90%;
+}
+
+#img-ctt{
+    width: 90%;
+}
 
 /*RODAPÉ RAFAEL ESTEVAM*/
-#title{
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 150%;
-    color: #000;
-}
-
-#txt{
-    text-justify: auto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000;
-}
-
-#perrydevlogo{
-    width: 100%;
-}
-
 #foot{
-    background-color: #dfdfdf;
+    width: 100%;
+    border-bottom: 1rem solid #7E0000;
+    border-top: 1rem solid #666666;
 }
+
+#contact-area1{
+    padding: 0px;
+}
+
 
 /* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
 
@@ -361,6 +415,7 @@ p, li {
 /*BARRA DE NAVEGAÇÃO HECLAIR */
 #navCurso{
     background-color: #DADADA;
+    width: 100%;
 }
 
 #navCurso li{
@@ -370,53 +425,57 @@ p, li {
     line-height: 150%;
 }
 
+#navBarT2{
+    z-index: 4;
+    padding: 0px;
+}
+
 
 /*CARROSSEL LUIS EDUARDO*/
 
-.carousel-control-prev:hover #volta{
-    background-color: #0D99FF;
-}
-
-.carousel-control-next:hover #continua{
-    background-color: #0D99FF;
+#indicadores{
+    bottom: -20px;
 }
 
 #Slideb{
-    background-color: #000000;
     position: relative;
 }
 
 #pagina{
     background-color: #D9D9D9;
+    max-height: max-content;     
+}
+
+#meuCarrossel{
+    border-radius: 30px;
+    padding-top: 10px;
 }
 
 /*BOTÕES DANIEL DORNELAS */
 
+#home-button, #mod2-button{
+    background: #7E0000;
+	color: white;
+    border-radius: 25px;
+    width: 25%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 2vw;
+    max-height: 68px;
+    max-width: 240px;
+    font-family: 'Merriweather';
+}
+
+#mod2-button{
+    float: right;
+}
 
 /*RODAPÉ RAFAEL ESTEVAM */
-#title{
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 150%;
-    color: #000;
+
+#fatec-logo, #cps-logo, #siga-logo, #gsp-logo{
+    size: 1vw;
 }
 
-#txt{
-    text-justify: auto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000;
-}
-
-#foot{
+#foot2{
     background-color: #D9D9D9;
-}
-
-#contact-area1{
-    background-color: #D9D9D9;
-}
-
-#perrydevlogo{
-    width: 100%;
 }

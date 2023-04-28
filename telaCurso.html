@@ -26,11 +26,11 @@
 <body>
 
      <!--BARRA DE NAVEGAÇÃO HECLAIR -->
-     <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-            <nav class="navbar navbar fixed-top" id="navCurso">
-                <a href="#" class="navbar-brand">
-                 <img src="img/fatec_jcr_logo.png" alt="fatec jacareí">
+     <nav class="navbar bg-body-tertiary" id="navBarT2">
+        <div class="container-fluid" id="navBarT2">
+            <nav class="navbar navbar" id="navCurso">
+                <a href="index.html" class="navbar-brand">
+                 <img src="img/fatec.png" class="img-fluid" alt="fatec jacareí">
                 </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -69,16 +69,15 @@
         </div>
       </nav>
 
-     <!--CARROSSEL LUIS EDUARDO -->
-
-
      <!--CARROSSEL LUIZ EDUARDO -->
    
-<div class="container-fluid" id="pagina">
+
+<div class="container-fluid p-0" id="pagina">
     <div class="container" id="slide">
         <div class="row text-center">
+          <div class="col-md-12">
             <div id="meuCarrossel" class="carousel slide" data-bs-theme="dark" data-ride="carousel">
-              <div class="carousel-indicators">
+              <div class="carousel-indicators" id="indicadores">
                 <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
                 <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1" aria-label="Slide2"></button>
                 <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2" aria-label="Slide3"></button>
@@ -159,46 +158,42 @@
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev" id="volta">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next" id="continua">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+              </div>
           </div>
+        </div>
+        <div>
+          <button id="home-button" onclick="location.href='index.html'">Home</button>
+          <button id="mod2-button" onclick="location.href='#'">Módulo 2</button>
+        </div>
+        <div style="color: #D9D9D9;">.</div>
       </div>
   </div>
-</div>
-
-    <!--CONFIGURAÇÃO DOS BOTÕES DANIEL DORNELAS -->
-
-
+</div>    
     <!--RODAPÉ RAFAEL ESTEVAM -->
 
     <footer>
       <div id="contact-area">
-          <div class="container-fluid" id="contact-area1">
-              <div class="row" id="foot" >
-                  <div class="col-md-3" d-flex justify-content-center>
-                      <img src="img/Fatec Jacareí.png" alt="">
-                  </div>
-                  <div class="col-md-2" d-flex justify-content-center>
-                      <img src="img/Centro Paula Souza.png" alt="">
-                  </div>
-                  <div class="col-md-3" d-flex justify-content-center>
-                      <img src="img/Siga.png" alt="">
-                  </div>
-                  <div class="col-md-3" d-flex justify-content-center>
-                      <img src="img/Governo do Estado São Paulo.png" alt="">
-                  </div>
-                  <div class="col-md-1" d-flex justify-content-center>
-                      <img src="img/GitHub.png" alt="">
-                  </div>
-              </div>
+        <div class="container-fluid" id="contact-area2">
+          <div class="row" id="foot2">
+            <div class="col-lg-3 d-flex justify-content-center p-0">
+              <a href="http://www.fatecjacarei.com.br/" target="_blank"><img src="img/fatec.png" class="img-fluid" alt="" id="fatec-logo"/></a>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center p-0">
+              <a href="https://www.cps.sp.gov.br/" target="_blank"><img src="img/cps.png" class="img-fluid" alt="" id="cps-logo"/></a>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center p-0">
+              <a href="https://siga.cps.sp.gov.br/aluno/login.aspx" target="_blank"><img src="img/sigafatec.png" class="img-fluid" alt="" id="siga-logo"/></a>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center p-0">
+              <a href="https://www.saopaulo.sp.gov.br/" target="_blank"><img src="img/gsp.png" class="img-fluid" alt="" id="gsp-logo"/></a>
+            </div>
           </div>
-  </footer>   
+        </div>
+      </div>
+    </footer>
     
 <script src="./js/script.js"></script>
 
