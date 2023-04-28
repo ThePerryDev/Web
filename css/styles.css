@@ -271,20 +271,23 @@ p, li {
 /*CARDS TIME THEPERRYDEVS*/
 
 #teamcardtotal{
-    width: 350px;
+    width: 510px;
     height: 455px;
     border: hidden;
+    background-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     display: flex;
-    resize: horizontal;
+    justify-content: center;
+    align-items: center;
+    resize: both;
 }
 
 #teamcardheader{
     position: relative;
     width: 350px;
     height:130px;
-    background-color: #F0F0F0;
+    background-color: transparent;
     border: none;
     display: flex;
 }
@@ -301,7 +304,7 @@ p, li {
     border-bottom-right-radius: 50px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 #teamimgBx{
@@ -361,12 +364,87 @@ p, li {
 
 #proximo{
     left:inherit;
-    right: 4%;
+    right: 0%;
 }
 
 #voltar{
     right: inherit;
     left: 0%;
+}
+
+@media(max-width: 1155px){
+    #teamcardtotal{
+        width: 350px;
+        height: 380px;
+        border: hidden;
+        background-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        resize: both;
+    }
+    
+    #teamcardheader{
+        position: relative;
+        width: 250px;
+        height:95px;
+        background-color: transparent;
+        border: none;
+        display: flex;
+    }
+    
+    #teamcardbody{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background: white;
+        border-top: 10px solid #004854;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #teamimgBx{
+        position: absolute;
+        left: 50%;
+        top: -85px;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 150px;
+        background: black;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+    }
+
+    #teamcarddetailsh2{
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-size: 1em;
+        font-weight: 700;
+        color: #292929;
+        line-height: 3.5em;
+    }
+    
+    #teamcarddetailsspan{
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-size: 0.9em;
+        font-weight: 700;
+        line-height: 4em;
+    }
+
+    #teamcarddetails{
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+    }
 }
 
     
