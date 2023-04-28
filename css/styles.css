@@ -28,7 +28,15 @@ p, li {
 
     right: 66px;
     }
-    
+
+    button.navbar-toggler {
+        margin-right: 100px;
+    }
+
+    .navbar-brand {
+        margin-left: 30px;
+    }
+ 
     #nav1{
     border-bottom: 25px solid #666666 ;
     border-top: 25px solid #7E0000;
