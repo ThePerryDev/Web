@@ -503,6 +503,11 @@ p, li {
     padding: 0px;
 }
 
+#volta, #continua{
+    margin-top: 25%;
+    margin-block-end: 25%;
+}
+
 
 /*CARROSSEL LUIS EDUARDO*/
 
