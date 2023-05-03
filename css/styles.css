@@ -529,6 +529,14 @@ p, li {
     padding-top: 10px;
 }
 
+#continua{
+    right: -5%;
+}
+
+#volta{
+    left: -5%;
+}
+
 /*BOTÕES DANIEL DORNELAS */
 
 #home-button, #mod2-button{
