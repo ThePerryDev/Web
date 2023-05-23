@@ -17,6 +17,16 @@
     padding-top: 15px;
 }
 
+#base-atvd{
+    background-color: #F0F0F0;
+    background-image: url("../img/Padrão Cinza.png");
+    background-repeat: repeat-y;
+}
+
+#cont-atvd{
+    background-color: #D9D9D9;
+}
+
 @media (max-width: 575.99px){
     .img-fluid-small{
         width: 70%;
