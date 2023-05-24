@@ -197,6 +197,32 @@ p, li {
     font-family: 'Merriweather';
 }
 
+/*ATIVIDADE BURNDOWN BIANCA LUCAS*/
+
+#fundo-branco{
+    background-color: #FFFFFF;
+    margin-top: 50px;
+}
+
+#passo1{
+    margin-top: 25px;
+    width: 100%;
+}
+
+#passo2{
+    margin-top: 25px;
+    width: 50%;
+}
+
+#titulos-burndown{
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#para-justificado{
+    text-align: justify;
+}
+
 /*CARD MÓDULOS MARIANA RAMALHO*/
 
 #cardTop{
