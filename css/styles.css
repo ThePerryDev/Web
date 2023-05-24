@@ -486,21 +486,38 @@ p, li {
 
 
 /*BARRA DE NAVEGAÇÃO HECLAIR */
-#navCurso{
-    background-color: #DADADA;
+#navBarT1{
+    position: relative;
     width: 100%;
+    background-color: #FFFFFF;
+    z-index: 4;
+    padding: 0;
+    border: none;
 }
 
-#navCurso li{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
+#logotelacurso{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: none;
 }
 
 #navBarT2{
-    z-index: 4;
-    padding: 0px;
+    position: relative;
+    background-color: #7E0000;
+    width: 100%;
+    padding-top:0px;
+    border-bottom: 25px solid #666666;
+}
+
+#redcenter{
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+#TM1{
+    margin-right: 1%;
 }
 
 #volta, #continua{
