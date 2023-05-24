@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Minicurso SCRUM</title>
 
     <!--FONTE ROBOTO-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -242,7 +242,7 @@
                                     </div>
                                     <div class="content" id="teamcardcontent">
                                         <div class="details" id="teamcarddetails">
-                                            <h2 id="teamcarddetailsh2">Daniel Dornellas<br><span id="teamcarddetailsspan">Product Owner</span></h2>
+                                            <h2 id="teamcarddetailsh2">Daniel Dornelas<br><span id="teamcarddetailsspan">Product Owner</span></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -376,13 +376,21 @@
           <div class="row align-item-center text-center" id="row-ctt">
             <div class="col-md-6 text-center" id="ctt-left">
               <h1 id="titulo-ctt">Contato</h1>
-
-              <div >
-                <a href="https://github.com/ThePerryDev/docs" target="_blank"><img src="img/git2.PNG" id="img-git"></a>
-
-              </div>
+              <form action="https://formsubmit.co/your@email.com" method="post">
+                <input type="text" placeholder="Seu nome" id="contato-nome">
+                <input type="text" placeholder="Seu e-mail" id="contato-email">
+                <textarea placeholder="Digite sua mensagem" name="message" id="contato-mensagem" cols="30" rows="10"></textarea>
+                <div>
+                  <a href="https://github.com/ThePerryDev/docs" target="_blank" id="github"><img src="img/logo-gh.png" alt="logo github"></a>
+                  <button type="submit" id="contato-enviar">Enviar</button>
+                </div>
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="hidden" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
+              </form>
             </div>
-            <div class="col-md-6" id="ctt-right" >
+            <div class="col-md-1"></div>
+            <div class="col-md-5" id="ctt-right" >
               <img src="img/ImgContato.png" alt="" id="img-ctt" />
             </div>
           </div>
