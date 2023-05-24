@@ -477,6 +477,22 @@ p, li {
     border-top: 1rem solid #666666;
 }
 
+#fatec-logo{
+    margin-top: 12px;
+}
+
+#cps-logo{
+    margin-top: 8px;
+}
+
+#siga-logo{
+    margin-top: 5px;
+}
+
+#gsp-logo{
+    margin-top: 5px;
+}
+
 #contact-area1{
     padding: 0px;
 }
