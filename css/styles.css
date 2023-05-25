@@ -539,22 +539,24 @@ p, li {
 
 /*BOTÕES DANIEL DORNELAS */
 
-#home-button, #mod2-button{
+#home-button, #home-button2, #home-button3,
+#mod1-button, #mod1-button2, 
+#mod2-button, #mod2-button2, 
+#mod3-button {
     background: #7E0000;
 	color: white;
-    border-radius: 25px;
+    border-radius: 15px;
     border: none;
-    width: 25%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
     height: auto;
     margin-top: 10px;
     font-size: 2vw;
     max-height: 68px;
     max-width: 240px;
     font-family: 'Merriweather';
-}
-
-#mod2-button{
-    float: right;
 }
 
 /* CONTACT AREA - DANIEL DORNELAS */
