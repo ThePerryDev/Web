@@ -575,3 +575,28 @@ p, li {
 #cont-atv{
     background-color: #D9D9D9;
 }
+
+#cont2-atv{
+    background-color: white;
+    width: 10;
+}
+
+#img-k01{
+    border-radius: 40px;
+    width: 50vw;
+    border: 1px solid #7E0000;
+}
+
+#passo{
+    padding-top: 20px;
+}
+
+#subtitulo{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #004854;
+    word-wrap: break-word;
+}
