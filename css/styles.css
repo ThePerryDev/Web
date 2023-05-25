@@ -485,11 +485,12 @@ p, li {
 /* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
 
 
-/*BARRA DE NAVEGAÇÃO HECLAIR */
+/*BARRA DE NAVEGAÇÃO HECLAIR & WILLIAN */
 #navBarT1{
     position: relative;
     width: 100%;
     background-color: #FFFFFF;
+    height: 75px;
     z-index: 4;
     padding: 0;
     border: none;
@@ -506,7 +507,7 @@ p, li {
     position: relative;
     background-color: #7E0000;
     width: 100%;
-    padding-top:0px;
+    padding: 3px;
     border-bottom: 25px solid #666666;
 }
 
@@ -518,6 +519,7 @@ p, li {
 
 #TM1{
     margin-right: 1%;
+    color: #F0F0F0;
 }
 
 #volta, #continua{
@@ -538,7 +540,7 @@ p, li {
 
 #pagina{
     background-color: #D9D9D9;
-    max-height: max-content;     
+    max-height: max-content;   
 }
 
 #meuCarrossel{
