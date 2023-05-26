@@ -540,7 +540,11 @@ p, li {
 
 #pagina{
     background-color: #D9D9D9;
-    max-height: max-content;   
+    max-height: max-content;
+    background-image: url(../img/fundocinzafull.png);
+    background-repeat: repeat-x;
+    background-position:center;
+    background-size: 40%;
 }
 
 #meuCarrossel{
@@ -556,6 +560,15 @@ p, li {
     left: -5%;
 }
 
+@media(max-width: 570px){
+        #pagina{
+        background-color: #D9D9D9;
+        max-height: max-content;
+        background-image: url(../img/fundocinzafull.png);
+        background-repeat: repeat-x;
+        background-position:inherit;
+    }
+}
 /*BOTÕES DANIEL DORNELAS */
 
 #home-button, #mod2-button{
