@@ -1,0 +1,162 @@
+/*GERAIS*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.container{
+    padding: 50px 0;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p, li {
+    color:black ;
+}
+
+/* --------------------------------------- TELA INICIAL -----------------------------------------------------------------------------*/
+
+/*BARRA DE NAVEGAÇÃO BRUNO MENDES*/
+.navbar-toggler{
+
+    right: 66px;
+    }
+
+    button.navbar-toggler {
+        margin-right: 100px;
+    }
+
+    .navbar-brand { 
+        margin-left: 30px;
+    }
+ 
+    #nav1{
+    border-bottom: 25px solid #666666 ;
+    border-top: 25px solid #7E0000;
+    
+    }
+    
+    #rowCinza{
+    
+    border: #000;
+    height: 25px;
+    background-color: #666666;
+    }
+    
+    header, .navbar{
+    z-index: 1;
+    background-color: #FFFFFF;
+    
+    }
+    
+    .navbar-brand{
+    left: 66px;
+    color: #FFFFFF;
+    padding-top: 0px;
+    }
+    
+    #nav2{
+    height: auto;
+    padding-left: 25px   ;
+    padding-right: 25px;
+    }
+    
+    .navbar-brand:hover {
+    color: #000000;   
+    }
+    
+    #navbar-links a{
+    color: #000;
+    font-size: 18px;
+    }
+    #navbar-links a:hover {
+    background-color: #f5a0a071; /* Cor de fundo alterada */
+    color: #000000; /* Cor do texto alterada */
+    box-shadow: 0px 0px 10px #0000004e; /* Sombra adicionada */
+    font-size: 20px;
+    }
+    
+    
+    .navbar-expand-lg .navbar .nav-link {
+    padding: 1rem .8rem;
+    }
+    .custom-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+/*PÁGINA ATIVIDADES*/
+
+#base-atv{
+    background-color: #F0F0F0;
+}
+
+#cont-atv{
+    background-color: #D9D9D9;
+}
+
+#cont2-atv{
+    background-color: white;
+    width: 10;
+}
+
+#img-k01{
+    border-radius: 40px;
+    width: 80vw;
+    border: 1px solid #7E0000;
+    padding: 0px;
+}
+
+#passo{
+    padding-top: 20px;
+}
+
+#subtitulo, h2{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #004854;
+    word-wrap: break-word;
+}
+
+#titulo, h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #004854;
+    word-wrap: break-word;
+}
+
+#nro{
+    padding: 5px;
+}
+
+#fim{
+    padding-top: 10px;
+}
+
+/*RODAPÉ RAFAEL ESTEVAM*/
+#foot{
+    width: 100%;
+    border-bottom: 1rem solid #7E0000;
+    border-top: 1rem solid #666666;
+}
+
+#contact-area1{
+    padding: 0px;
+}
+
+
+
+
