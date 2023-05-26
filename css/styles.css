@@ -555,11 +555,18 @@ p, li {
 
 /*BOTÕES DANIEL DORNELAS */
 
-#home-button, #mod2-button{
+#home-button, #home-button2, #home-button3,
+#mod1-button, #mod1-button2, 
+#mod2-button, #mod2-button2, 
+#mod3-button {
     background: #7E0000;
 	color: white;
-    border-radius: 25px;
-    width: 25%;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
     height: auto;
     margin-top: 10px;
     font-size: 2vw;
@@ -568,8 +575,52 @@ p, li {
     font-family: 'Merriweather';
 }
 
-#mod2-button{
+/* CONTACT AREA - DANIEL DORNELAS */
+
+#contato-nome, #contato-email {
+    float: left;
+    width: 100%;
+    margin-bottom: 3vh;
+    box-shadow: white 0px 3px;
+    height: 5vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#contato-mensagem {
+    float: left;
+    width: 100%;
+    margin-bottom: 3vh;
+    box-shadow: white 0px 3px;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+#contato-enviar {
+    background: #7E0000;
+	color: white;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    margin-top: 10px;
+    max-height: 68px;
+    max-width: 240px;
+    font-family: 'Merriweather';
     float: right;
+    margin-top: 1.7vh;
+}
+
+#github {
+    float: left;
+}
+
+#img-ctt {
+    margin-top: 8vh;
 }
 
 /*RODAPÉ RAFAEL ESTEVAM */
