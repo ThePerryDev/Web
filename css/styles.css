@@ -206,17 +206,30 @@ p, li {
 
 #fundo-branco{
     background-color: #FFFFFF;
-    margin-block-end: 30px;
 }
 
 #passo1{
     margin-top: 25px;
-    width: 100%;
+    margin-block-end: 25px;
+    width: 50%;
 }
 
 #passo2{
     margin-top: 25px;
-    width: 50%;
+    margin-block-end: 25px;
+    width: 40%;
+}
+
+#passo3{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 80%;
+}
+
+#passo4{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 70%;
 }
 
 #titulos-burndown{
@@ -240,6 +253,18 @@ p, li {
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 400;
+}
+
+.img-fluid{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 100%;
+    height: 20%;
+}
+
+#nums{
+    width: 85px;
+    margin-top: 15%;
 }
 
 /*CARD MÓDULOS MARIANA RAMALHO*/
