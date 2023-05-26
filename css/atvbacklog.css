@@ -1,0 +1,30 @@
+#tabela {
+  overflow-x: auto;
+}
+
+#titulo {
+  text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+  }
+
+  th {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+  }
+
+  input {
+    border: none;
+    background-color: whitesmoke;
+  }

@@ -159,8 +159,18 @@
           </div>
         </div>
         <div>
-          <button id="home-button" data-bs-toggle="tooltip" data-bs-placement="right" title="Retorna para a Página Inicial" onclick="location.href='index.html'">Home</button>
-          <button id="mod2-button" data-bs-toggle="tooltip" data-bs-placement="left"  title="Clique para avançar ao Módulo 2" onclick="location.href='#'">Módulo 2</button>
+
+          <style>
+            .button-container {
+              display: flex;
+              justify-content: space-between;
+            }
+          </style>
+          
+          <div class="button-container">
+            <button onclick="location.href='index.html'" id="home-button">Botão 1</button>
+            <button onclick="location.href='telaCursomod2.html'" id="mod2-button">Botão 2</button>
+          </div>
         </div>
         <div style="color: #D9D9D9;">.</div>
       </div>
