@@ -111,13 +111,14 @@ p, li {
     border-radius: 40px;
     width: 80vw;
     border: 1px solid #7E0000;
+    padding: 0px;
 }
 
 #passo{
     padding-top: 20px;
 }
 
-#subtitulo{
+#subtitulo, h2{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
@@ -125,6 +126,24 @@ p, li {
     line-height: 150%;
     color: #004854;
     word-wrap: break-word;
+}
+
+#titulo, h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #004854;
+    word-wrap: break-word;
+}
+
+#nro{
+    padding: 5px;
+}
+
+#fim{
+    padding-top: 10px;
 }
 
 /*RODAPÉ RAFAEL ESTEVAM*/
