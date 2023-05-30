@@ -208,6 +208,11 @@ p, li {
     background-color: #FFFFFF;
 }
 
+#fundo-branco1{
+    background-color: #FFFFFF;
+    margin-block-end: 25px;
+}
+
 #passo1{
     margin-top: 25px;
     margin-block-end: 25px;
@@ -265,6 +270,11 @@ p, li {
 #nums{
     width: 85px;
     margin-top: 15%;
+}
+
+#img-complementar{
+    width: 40%;
+    margin-block-end: 25px;
 }
 
 /*CARD MÓDULOS MARIANA RAMALHO*/
