@@ -619,7 +619,7 @@ p, li {
 
 /*BOTÕES DANIEL DORNELAS */
 
-#home-button, #mod2-button{
+#home-button, #mod1-button, #mod2-button, #mod3-button{
     background: #7E0000;
 	color: white;
     border-radius: 25px;
