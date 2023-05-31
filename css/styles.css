@@ -557,6 +557,22 @@ p, li {
     border-top: 1rem solid #666666;
 }
 
+#fatec-logo{
+    margin-top: 12px;
+}
+
+#cps-logo{
+    margin-top: 8px;
+}
+
+#siga-logo{
+    margin-top: 5px;
+}
+
+#gsp-logo{
+    margin-top: 5px;
+}
+
 #contact-area1{
     padding: 0px;
 }
@@ -565,22 +581,41 @@ p, li {
 /* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
 
 
-/*BARRA DE NAVEGAÇÃO HECLAIR */
-#navCurso{
-    background-color: #DADADA;
+/*BARRA DE NAVEGAÇÃO HECLAIR & WILLIAN */
+#navBarT1{
+    position: relative;
     width: 100%;
+    background-color: #FFFFFF;
+    height: 75px;
+    z-index: 4;
+    padding: 0;
+    border: none;
 }
 
-#navCurso li{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
+#logotelacurso{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: none;
 }
 
 #navBarT2{
-    z-index: 4;
-    padding: 0px;
+    position: relative;
+    background-color: #7E0000;
+    width: 100%;
+    padding: 3px;
+    border-bottom: 25px solid #666666;
+}
+
+#redcenter{
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+#TM1{
+    margin-right: 1%;
+    color: #F0F0F0;
 }
 
 #volta, #continua{
@@ -601,7 +636,11 @@ p, li {
 
 #pagina{
     background-color: #D9D9D9;
-    max-height: max-content;     
+    max-height: max-content;
+    background-image: url(../img/fundocinzafull.png);
+    background-repeat: repeat-x;
+    background-position:center;
+    background-size: 40%;
 }
 
 #meuCarrossel{
@@ -617,13 +656,31 @@ p, li {
     left: -5%;
 }
 
+@media(max-width: 570px){
+        #pagina{
+        background-color: #D9D9D9;
+        max-height: max-content;
+        background-image: url(../img/fundocinzafull.png);
+        background-repeat: repeat-x;
+        background-position:inherit;
+    }
+}
 /*BOTÕES DANIEL DORNELAS */
 
-#home-button, #mod1-button, #mod2-button, #mod3-button{
+
+#home-button, #home-button2, #home-button3,
+#mod1-button, #mod1-button2, 
+#mod2-button, #mod2-button2, 
+#mod3-button {
+
     background: #7E0000;
 	color: white;
-    border-radius: 25px;
-    width: 25%;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
     height: auto;
     margin-top: 10px;
     font-size: 2vw;
@@ -632,8 +689,52 @@ p, li {
     font-family: 'Merriweather';
 }
 
-#mod2-button{
+/* CONTACT AREA - DANIEL DORNELAS */
+
+#contato-nome, #contato-email {
+    float: left;
+    width: 100%;
+    margin-bottom: 3vh;
+    box-shadow: white 0px 3px;
+    height: 5vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#contato-mensagem {
+    float: left;
+    width: 100%;
+    margin-bottom: 3vh;
+    box-shadow: white 0px 3px;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+#contato-enviar {
+    background: #7E0000;
+	color: white;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    margin-top: 10px;
+    max-height: 68px;
+    max-width: 240px;
+    font-family: 'Merriweather';
     float: right;
+    margin-top: 1.7vh;
+}
+
+#github {
+    float: left;
+}
+
+#img-ctt {
+    margin-top: 8vh;
 }
 
 /*RODAPÉ RAFAEL ESTEVAM */
@@ -654,4 +755,29 @@ p, li {
 
 #cont-atv{
     background-color: #D9D9D9;
+}
+
+#cont2-atv{
+    background-color: white;
+    width: 10;
+}
+
+#img-k01{
+    border-radius: 40px;
+    width: 50vw;
+    border: 1px solid #7E0000;
+}
+
+#passo{
+    padding-top: 20px;
+}
+
+#subtitulo{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #004854;
+    word-wrap: break-word;
 }
