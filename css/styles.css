@@ -197,6 +197,86 @@ p, li {
     font-family: 'Merriweather';
 }
 
+/*ATIVIDADE BURNDOWN BIANCA LUCAS*/
+
+#fundo-burndown{
+    background-color: #D9D9D9;
+    padding: 0px 30px;
+}
+
+#fundo-branco{
+    background-color: #FFFFFF;
+}
+
+#fundo-branco1{
+    background-color: #FFFFFF;
+    margin-block-end: 25px;
+}
+
+#passo1{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 50%;
+}
+
+#passo2{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 40%;
+}
+
+#passo3{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 80%;
+}
+
+#passo4{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 70%;
+}
+
+#titulos-burndown{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 28px;
+    color: #004854;
+    margin-top: 20px;
+}
+
+#titulo-principal{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 32px;
+    color: #004854;
+    margin-top: 20px;
+}
+
+#para-justificado{
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img-fluid{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 100%;
+    height: 20%;
+}
+
+#nums{
+    width: 85px;
+    margin-top: 15%;
+}
+
+#img-complementar{
+    width: 40%;
+    margin-block-end: 25px;
+}
+
 /*CARD MÓDULOS MARIANA RAMALHO*/
 
 #cardTop{
@@ -587,10 +667,12 @@ p, li {
 }
 /*BOTÕES DANIEL DORNELAS */
 
+
 #home-button, #home-button2, #home-button3,
 #mod1-button, #mod1-button2, 
 #mod2-button, #mod2-button2, 
 #mod3-button {
+
     background: #7E0000;
 	color: white;
     border-radius: 15px;
