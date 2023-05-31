@@ -666,9 +666,3 @@ p, li {
     font-size: 20px;
     font-weight: 400;
 }
-
-#svgid li{
-    display: flex;
-    align-items: center;
-    padding-top: 1.3rem;
-}
