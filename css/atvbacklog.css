@@ -28,3 +28,16 @@ table {
     border: none;
     background-color: whitesmoke;
   }
+  
+#botao-v {
+  display: inline-block;
+  margin-left: 120px;
+  background: #7E0000;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 50px;
+  font-size: larger;
+  margin-top: 10px;
+  font-family: 'Merriweather';
+}
