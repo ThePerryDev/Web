@@ -1,0 +1,167 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.container{
+    padding: 50px 0;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p, li {
+    color:black ;
+}
+
+/*BARRA DE NAVEGAÇÃO HECLAIR & WILLIAN */
+#navBarT1{
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 75px;
+    z-index: 4;
+    padding: 0;
+    border: none;
+}
+
+#logotelacurso{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+#barras{
+    color:#fff;
+    font-size:28px;
+}
+
+#navBarT2{
+    position: relative;
+    background-color: #7E0000;
+    width: 100%;
+    padding: 3px;
+    border-bottom: 25px solid #666666;
+}
+
+#redcenter{
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+#TM1{
+    margin-right: 1%;
+    color: #F0F0F0;
+}
+
+#volta, #continua{
+    margin-top: 25%;
+    margin-block-end: 25%;
+}
+
+/*CARROSSEL LUIS EDUARDO*/
+#indicadores{
+    bottom: -20px;
+}
+
+#Slideb{
+    position: relative;
+}
+
+#pagina{
+    background-color: #D9D9D9;
+    max-height: max-content;
+    background-image: url(../img/fundocinzafull.png);
+    background-repeat: repeat-x;
+    background-position:center;
+    background-size: 40%;
+}
+
+#meuCarrossel{
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+#continua{
+    right: -5%;
+}
+
+#volta{
+    left: -5%;
+}
+
+@media(max-width: 570px){
+        #pagina{
+        background-color: #D9D9D9;
+        max-height: max-content;
+        background-image: url(../img/fundocinzafull.png);
+        background-repeat: repeat-x;
+        background-position:inherit;
+    }
+}
+/*BOTÕES DANIEL DORNELAS */
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width: 570px){
+    #home-button, #home-button2, #home-button3,
+    #mod1-button, #mod1-button2, 
+    #mod2-button, #mod2-button2, 
+    #mod3-button{
+        background: #7E0000;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        height: auto;
+        margin-top: 10px;
+        font-size: 2vw;
+        max-width: 80px;
+        font-family: 'Merriweather';
+    }
+}
+
+#home-button, #home-button2, #home-button3,
+#mod1-button, #mod1-button2, 
+#mod2-button, #mod2-button2, 
+#mod3-button{
+    background: #7E0000;
+	color: white;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    margin-top: 10px;
+    font-size: 2vw;
+    max-height: 68px;
+    max-width: 240px;
+    font-family: 'Merriweather';
+}
+
+ponto{
+    color: #D9D9D9;
+}
+
+/*RODAPÉ RAFAEL ESTEVAM */
+
+#fatec-logo, #cps-logo, #siga-logo, #gsp-logo{
+    size: 1vw;
+}
+
+#foot2{
+    background-color: #D9D9D9;
+}

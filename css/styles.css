@@ -1,5 +1,5 @@
 /*GERAIS*/
-body{
+.body{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -625,7 +625,6 @@ p, li {
 
 
 /*CARROSSEL LUIS EDUARDO*/
-
 #indicadores{
     bottom: -20px;
 }
@@ -671,8 +670,7 @@ p, li {
 #home-button, #home-button2, #home-button3,
 #mod1-button, #mod1-button2, 
 #mod2-button, #mod2-button2, 
-#mod3-button {
-
+#mod3-button{
     background: #7E0000;
 	color: white;
     border-radius: 15px;
