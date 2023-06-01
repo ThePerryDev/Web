@@ -146,6 +146,27 @@ p, li {
     padding-top: 10px;
 }
 
+#home-button, #home-button2, #home-button3,
+#mod1-button, #mod1-button2, 
+#mod2-button, #mod2-button2, 
+#mod3-button {
+    background: #7E0000;
+	color: white;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    margin-top: 10px;
+    font-size: 1
+vw;
+    max-height: 68px;
+    max-width: 240px;
+    font-family: 'Merriweather';
+}
+
 /*RODAPÉ RAFAEL ESTEVAM*/
 #foot{
     width: 100%;
