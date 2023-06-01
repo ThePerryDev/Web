@@ -620,3 +620,50 @@ p, li {
 #cont-atv{
     background-color: #D9D9D9;
 }
+
+
+/*WikiHow Bruno Mendes*/
+
+#cont2-atv{
+    background-color: white;
+    width: 10;
+}
+
+#img-k01{
+    border-radius: 40px;
+    width: 80vw;
+    border: 1px solid #7E0000;
+    padding: 0px;
+}
+
+#passo{
+    padding-top: 20px;
+}
+
+#subtitulo, h2{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #004854;
+    word-wrap: break-word;
+}
+
+#titulo, h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #004854;
+    word-wrap: break-word;
+}
+
+#nro{
+    padding: 5px;
+}
+
+#add-row{
+    margin-left: 10px;
+}
