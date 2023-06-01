@@ -595,15 +595,11 @@ p, li {
 	color: white;
     border-radius: 15px;
     border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 5px 15px 5px 15px;
     height: auto;
     margin-top: 10px;
-    font-size: 2vw;
-    max-height: 68px;
     font-family: 'Merriweather';
+    font-size: 1.5vw;
 }
 
 /* CONTACT AREA - DANIEL DORNELAS */
