@@ -94,6 +94,10 @@ p, li {
     
 /*PÁGINA ATIVIDADES*/
 
+#list{
+    margin-left: 8px;
+}
+
 #base-atv{
     background-color: #F0F0F0;
 }
