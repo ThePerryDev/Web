@@ -20,7 +20,74 @@ p, li {
     color:black ;
 }
 
-/*BARRA DE NAVEGAÇÃO HECLAIR & WILLIAN */
+.navbar-toggler{
+
+    right: 66px;
+    }
+
+    button.navbar-toggler {
+        margin-right: 100px;
+    }
+
+    .navbar-brand { 
+        margin-left: 30px;
+    }
+ 
+    #nav1{
+    border-bottom: 25px solid #666666 ;
+    border-top: 25px solid #7E0000;
+    
+    }
+    
+    #rowCinza{
+    
+    border: #000;
+    height: 25px;
+    background-color: #666666;
+    }
+    
+    header, .navbar{
+    z-index: 1;
+    background-color: #FFFFFF;
+    
+    }
+    
+    .navbar-brand{
+    left: 66px;
+    color: #FFFFFF;
+    padding-top: 0px;
+    }
+    
+    #nav2{
+    height: auto;
+    padding-left: 25px   ;
+    padding-right: 25px;
+    }
+    
+    .navbar-brand:hover {
+    color: #000000;   
+    }
+    
+    #navbar-links a{
+    color: #000;
+    font-size: 18px;
+    }
+    #navbar-links a:hover {
+    background-color: #f5a0a071;
+    color: #000000;
+    box-shadow: 0px 0px 10px #0000004e;
+    font-size: 20px;
+    }
+    
+    
+    .navbar-expand-lg .navbar .nav-link {
+    padding: 1rem .8rem;
+    }
+    .custom-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
 #navBarT1{
     position: relative;
     width: 100%;
@@ -67,7 +134,6 @@ p, li {
     margin-block-end: 25%;
 }
 
-/*CARROSSEL LUIS EDUARDO*/
 #indicadores{
     bottom: -20px;
 }
@@ -107,56 +173,31 @@ p, li {
         background-position:inherit;
     }
 }
-/*BOTÕES DANIEL DORNELAS */
-
 
 .button-container {
   display: flex;
   justify-content: space-between;
 }
 
-@media(max-width: 570px){
-    #home-button, #home-button2, #home-button3,
-    #mod1-button, #mod1-button2, 
-    #mod2-button, #mod2-button2, 
-    #mod3-button{
-        background: #7E0000;
-        color: white;
-        border-radius: 15px;
-        border: none;
-        height: auto;
-        margin-top: 10px;
-        font-size: 2vw;
-        max-width: 80px;
-        font-family: 'Merriweather';
-    }
-}
-
 #home-button, #home-button2, #home-button3,
 #mod1-button, #mod1-button2, 
 #mod2-button, #mod2-button2, 
-#mod3-button{
+#mod3-button {
     background: #7E0000;
 	color: white;
     border-radius: 15px;
     border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 5px 15px 5px 15px;
     height: auto;
     margin-top: 10px;
-    font-size: 2vw;
-    max-height: 68px;
-    max-width: 240px;
     font-family: 'Merriweather';
+    font-size: 1.5vw;
 }
 
-ponto{
+
+#ponto{
     color: #D9D9D9;
 }
-
-/*RODAPÉ RAFAEL ESTEVAM */
 
 #fatec-logo, #cps-logo, #siga-logo, #gsp-logo{
     size: 1vw;
@@ -164,4 +205,53 @@ ponto{
 
 #foot2{
     background-color: #D9D9D9;
+}
+
+#fundo-burndown{
+    background-color: #D9D9D9;
+    padding: 0px 30px;
+}
+
+#fundo-branco{
+    background-color: #FFFFFF;
+}
+
+#fundo-branco1{
+    background-color: #FFFFFF;
+    margin-block-end: 25px;
+}
+
+#passo1{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 50%;
+}
+
+#passo2{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 40%;
+}
+
+#passo3{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 80%;
+}
+
+#passo4{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 70%;
+}
+
+.img-fluid{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 100%;
+    height: 20%;
+}
+
+#fajac{
+    margin-top: 0px;
 }
