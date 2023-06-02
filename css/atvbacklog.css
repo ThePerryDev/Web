@@ -1,15 +1,18 @@
-#tabela {
-  overflow-x: auto;
+html, body {
+  height: 100%;
 }
 
-#titulo {
-  text-align: center;
+#tabela {
+  overflow-x: auto;
+  display: flex;
+}
+
+#base-atv, #cont-atv {
+  height: 100%;
 }
 
 table {
     border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   th, td {
@@ -31,13 +34,24 @@ table {
   
 #botao-v {
   display: inline-block;
-  margin-left: 120px;
   background: #7E0000;
   color: white;
   border-radius: 15px;
   border: none;
-  padding: 5px 50px;
-  font-size: larger;
+  padding: 5px 20px;
+  font-size: 1.3vw;
   margin-top: 10px;
   font-family: 'Merriweather';
+}
+
+#newline {
+  margin: auto;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
 }

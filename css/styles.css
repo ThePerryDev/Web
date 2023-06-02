@@ -198,6 +198,9 @@ p, li {
 }
 
 /*CARD MÓDULOS MARIANA RAMALHO*/
+#carta01, #carta02, #carta03 {
+    margin-bottom: 30px;
+}
 
 #cardTop{
 	background-color:#004854;
