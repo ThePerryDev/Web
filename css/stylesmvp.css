@@ -107,11 +107,7 @@ p, li {
     width: 10;
 }
 
-#list{
-    margin-left: 8px;
-}
-
-#img-mvp1{
+#img-k01{
     border-radius: 40px;
     width: 80vw;
     border: 1px solid #7E0000;
@@ -150,6 +146,27 @@ p, li {
     padding-top: 10px;
 }
 
+#home-button, #home-button2, #home-button3,
+#mod1-button, #mod1-button2, 
+#mod2-button, #mod2-button2, 
+#mod3-button {
+    background: #7E0000;
+	color: white;
+    border-radius: 15px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    margin-top: 10px;
+    font-size: 1
+vw;
+    max-height: 68px;
+    max-width: 240px;
+    font-family: 'Merriweather';
+}
+
 /*RODAPÉ RAFAEL ESTEVAM*/
 #foot{
     width: 100%;
@@ -157,26 +174,10 @@ p, li {
     border-top: 1rem solid #666666;
 }
 
-#fatec-logo{
-    margin-top: 12px;
-    padding: 0px;
-}
-
-#cps-logo{
-    margin-top: 8px;
-    padding: 0px;
-}
-
-#siga-logo{
-    margin-top: 5px;
-    padding: 0px;
-}
-
-#gsp-logo{
-    margin-top: 12px;
-    padding: 0px;
-}
-
 #contact-area1{
     padding: 0px;
 }
+
+
+
+
