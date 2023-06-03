@@ -70,9 +70,9 @@ header, .navbar{
 }
 
 #navbar-links a:hover {
-    background-color: #f5a0a071; /* Cor de fundo alterada */
-    color: #000000; /* Cor do texto alterada */
-    box-shadow: 0px 0px 10px #0000004e; /* Sombra adicionada */
+    background-color: #f5a0a071;
+    color: #000000;
+    box-shadow: 0px 0px 10px #0000004e;
     font-size: 20px;
 }
     
@@ -144,27 +144,6 @@ header, .navbar{
 
 #add-row{
     margin-left: 10px;
-}
-
-#home-button, #home-button2, #home-button3,
-#mod1-button, #mod1-button2, 
-#mod2-button, #mod2-button2, 
-#mod3-button {
-
-    background: #7E0000;
-	color: white;
-    border-radius: 15px;
-    border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: auto;
-    margin-top: 10px;
-    font-size: 2vw;
-    max-height: 68px;
-    max-width: 240px;
-    font-family: 'Merriweather';
 }
 
 #foot{
