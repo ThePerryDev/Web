@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burndown</title>
+
+    <!--FONTE ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONTE ROBOTO SLAB-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONTE LEXEND-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONTE MERRIWEATHER-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--BOOTSTRAP JS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/bf7e05c402.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--BARRA DE NAVEGAÇÃO BRUNO MENDES-->
+    <header>        
+        <nav class="navbar navbar" id="nav1">
+            <a href="#" class="navbar-brand">
+
+            <img src="./img/fatec.png" alt="Logo do Cliente">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" id="togglernav"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav custom-padding">
+              <a class="nav-item nav-link" href="#base-verde" id="home-menu">Início</a>
+              <a class="nav-item nav-link" href="#modulos"  id="modulo-menu">Módulos</a>
+              <a class="nav-item nav-link" href="#dese" id="dev-menu">Desenvolvedores</a>
+              <a class="nav-item nav-link" href="#contact-area" id="cont-menu">Contato</a>
+          </div>
+        </div>    
+        </div>
+        </nav>   
+    </div>
+    </header>
+
+    <!--CONTEÚDO-->
+    <div>
+      <div class="container-fluid" id="base-atv">
+        <div class="container" id="cont-atv">
+          <div class="row">
+            <div class="row" id="fundo-burndown">
+            <div class="row justify-content-center" id="fundo-branco">
+              <p id="titulo-principal">Planning Poker e Burndown</p>
+              <p id="para-justificado">Nesta página, você irá aprender como realizar um Planning Poker de forma eficiente e também descobrirá como criar um gráfico de burndown para acompanhar o progresso do seu projeto. Para acessar o conteúdo completo, basta seguir o passo a passo.</p>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+            
+              <p id="titulos-burndown">Planning poker</p>
+              <p id="para-justificado">Antes de realizar um burndown, é importante compreender o conceito de planning poker e como atribuir pontos às atividades das sprints, distribuindo-os de forma adequada.</p>
+              <p id="titulos-burndown">O que é?</p>
+              <p id="para-justificado">O planning poker é uma técnica utilizada em projetos para estimar o esforço necessário para realizar determinadas tarefas. É uma forma colaborativa e eficiente de obter estimativas mais precisas por meio da participação de toda a equipe. Aqui vai um passo a passo de como realizar um planning poker.</p>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+            </div>
+
+            <div class="row"></div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num1.png" alt="Número um" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Preparação</p>
+              </div>
+
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+              <p id="para-justificado">Reúna a equipe de desenvolvimento em um ambiente adequado, preferencialmente com todos presentes fisicamente ou, caso não seja possível, utilizando ferramentas de videoconferência. Certifique-se de que todos tenham uma compreensão clara do projeto e das tarefas a serem estimadas.</p>
+            </div>
+            <div class="row justify-content-center" id="fundo-branco1">
+              <img src="img/atvburndown/preparacao.png" alt="Imagem complementar" id="img-complementar">
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num2.png" alt="Número dois" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Declaração dos pontos</p>
+              </div>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+              <p id="para-justificado">Utilize uma quantidade de pontos específicos para o Planning Poker. Os pontos são compostos representam valores de esforço, como 1, 2, 3, 5, 8, 13, 20, 40 e 100.</p>
+            </div>
+            <div class="row justify-content-center" id="fundo-branco1">
+              <img src="img/atvburndown/declaracao-pontos.png" alt="Imagem complementar" id="img-complementar">
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num3.png" alt="" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Aprensentação da tarefa</p>
+              </div>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+              <p id="para-justificado">Um membro da equipe apresenta uma tarefa específica que precisa ser estimada. A tarefa deve ser clara e compreendida por todos os participantes. É possível descrever a tarefa com detalhes, caso seja necessário. A equipe discute a tarefa e esclarece possíveis dúvidas sobre o escopo e os requisitos envolvidos.</p>
+              </div>
+
+              <div class="row justify-content-center" id="fundo-branco1">
+                <img src="img/atvburndown/apresentacao.png" alt="Imagem complementar" id="img-complementar">
+              </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num4.png" alt="" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Votação</p>
+              </div>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+              <p id="para-justificado">Cada membro da equipe seleciona uma quantidade de pontos que represente sua estimativa para o esforço necessário para concluir a tarefa. Os pontos devem ser escolhidas sem revelar aos demais participantes.</p>
+              </div>
+
+              <div class="row justify-content-center" id="fundo-branco1">
+                <img src="img/atvburndown/decisao1.png" alt="Imagem complementar" id="img-complementar">
+              </div>
+  
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num5.png" alt="" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Relação e consenso dos pontos</p>
+              </div>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+              <p id="para-justificado">Todos os participantes revelam seus pontos ao mesmo tempo. Se houver grandes discrepâncias nas estimativas, é importante que os membros que escolheram valores extremos expliquem os motivos para suas escolhas.</p>
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco1">
+              <img src="img/atvburndown/votacao.png" alt="Imagem complementar" id="img-complementar">
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num6.png" alt="" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Registro da estimativa</p>
+              </div>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+              <p id="para-justificado">Após alcançar um consenso, a estimativa final é registrada. Isso pode ser feito utilizando uma ferramenta de gestão de projetos, uma planilha compartilhada ou qualquer outra forma de registro que seja adequada para a equipe.</p>
+            </div>
+            <div class="row justify-content-center" id="fundo-branco1">
+              <img src="img/atvburndown/registro.png" alt="Imagem complementar" id="img-complementar">
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <p id="titulos-burndown">Como criar um burndown</p>
+              <p id="para-justificado">Como foi dito na aula anterior, o burndown tem como propósito monitorar o progresso do trabalho ao longo do tempo, oferecendo uma representação visual clara e objetiva do trabalho remanescente em relação ao tempo disponível. Agora, após essa breve revisão, vamos colocar em prática esse conceito, seguindo um processo passo a passo.</p>
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+            </div>
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num1.png" alt="" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Acessar o link</p>
+              </div>
+              <p id="para-justificado">Acesse o site utilizando o seguinte link: <a href="https://andreyluiz.com/burn-it-down/#/" target="_self">https://andreyluiz.com/burn-it-down/#/</a>. Basta clicar no link ou digitá-lo na barra de endereço do seu navegador web e pressionar Enter.</p>
+              <img src="img/atvburndown/passo1.png" alt="" id="passo1">
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num2.png" alt="" id="nums">
+              </div> 
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Inserir dados da sprint</p>
+              </div>
+              <p id="para-justificado">Coloque a quantidade de dias da sprint, o total de pontos utilizados nessa sprint e clique no botão “Ir!”</p>
+              <img src="img/atvburndown/passo2.png" alt="" id="passo2">
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <div class="col-lg-1">
+                <img src="img/atvburndown/num3.png" alt="" id="nums">
+              </div>
+              <div class="col-lg-1">
+              </div>
+              <div class="col-lg-10">
+                <p id="titulos-burndown">Inserir dados dos dias</p>
+              </div>
+              <p id="para-justificado">Coloque um nome na sua sprint e insira os pontos gastos durante os dias mensionados.</p>
+              <img src="img/atvburndown/passo3.png" alt="" id="passo3">
+              <div class="row">
+                <img src="img/atvburndown/divisor1.png" class="img-fluid" alt="divisor">
+              </div>
+            </div>
+
+            <div class="row justify-content-center" id="fundo-branco">
+              <p id="titulos-burndown">Resultado -</p>
+              <p id="para-justificado">Após inserir os dados em seus lugares será criado o gráfico de burndown.</p>
+              <img src="img/atvburndown/passo4.png" alt="" id="passo4">
+            </div>
+            <div>
+              <button id="mod1-button" onclick="location.href='telaCurso.html'">Voltar</button>
+            </div>            
+          </div>
+          </div>
+          </div> 
+        </div> 
+ 
+
+    
+    <!--RODAPÉ RAFAEL ESTEVAM-->
+
+    <footer>
+      <div id="contact-area">
+        <div class="container-fluid" id="contact-area1">
+          <div class="row" id="foot">
+            <div class="col-md-3 d-flex justify-content-center">
+              <a href="http://www.fatecjacarei.com.br/" target="_blank"><img src="img/fatec.png" alt="" id="fatec-logo" /></a>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <a href="https://www.cps.sp.gov.br/" target="_blank"><img src="img/cps.png" alt="" id="cps-logo" /></a>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <a href="https://siga.cps.sp.gov.br/aluno/login.aspx" target="_blank"><img src="img/sigafatec.png" alt="" id="siga-logo" /></a>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <a href="https://www.saopaulo.sp.gov.br/" target="_blanck"><img src="img/gsp.png" alt="" id="gsp-logo" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
