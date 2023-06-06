@@ -1,5 +1,5 @@
 /*GERAIS*/
-body{
+.body{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -76,21 +76,30 @@ p, li {
     color: #000;
     font-size: 18px;
     }
+
     #navbar-links a:hover {
     background-color: #f5a0a071; /* Cor de fundo alterada */
     color: #000000; /* Cor do texto alterada */
     box-shadow: 0px 0px 10px #0000004e; /* Sombra adicionada */
     font-size: 20px;
     }
-    
+
+    #down-menu, #atv-menu{
+        text-decoration: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
     
     .navbar-expand-lg .navbar .nav-link {
     padding: 1rem .8rem;
     }
+
     .custom-padding {
     padding-left: 15px;
     padding-right: 15px;
     }
+
+    
     
 /*APRENDA SCRUM BIANCA LUCAS */
 
@@ -347,7 +356,7 @@ p, li {
 
 #dese{
     background-color: #F0F0F0;
-    background-image: url("../img/Padrão Cinza.png");
+    background-image: url("../img/cps-fundo.png");
     background-repeat: repeat-y;
 }
 
@@ -736,7 +745,7 @@ p, li {
 }
 
 /*RODAPÉ RAFAEL ESTEVAM */
-
+/*
 #fatec-logo, #cps-logo, #siga-logo, #gsp-logo{
     size: 1vw;
 }

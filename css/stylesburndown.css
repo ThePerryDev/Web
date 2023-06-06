@@ -1,4 +1,3 @@
-
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -26,16 +25,16 @@ p, li {
 }
 
 button.navbar-toggler {
-    margin-right: 100px;
+        margin-right: 100px;
 }
 
 .navbar-brand { 
-    margin-left: 30px;
+        margin-left: 30px;
 }
  
 #nav1{
     border-bottom: 25px solid #666666 ;
-    border-top: 25px solid #7E0000;    
+    border-top: 25px solid #7E0000;
 }
     
 #rowCinza{
@@ -76,8 +75,7 @@ header, .navbar{
     box-shadow: 0px 0px 10px #0000004e;
     font-size: 20px;
 }
-    
-    
+
 .navbar-expand-lg .navbar .nav-link {
     padding: 1rem .8rem;
 }
@@ -108,16 +106,15 @@ header, .navbar{
 
 #img-k01{
     border-radius: 40px;
-    width: 80vw;
+    width: 50vw;
     border: 1px solid #7E0000;
-    padding: 0px;
 }
 
 #passo{
     padding-top: 20px;
 }
 
-#subtitulo, h2{
+#subtitulo{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
@@ -127,22 +124,82 @@ header, .navbar{
     word-wrap: break-word;
 }
 
-#titulo, h1{
+#fundo-burndown{
+    background-color: #D9D9D9;
+    padding: 0px 30px;
+}
+
+#fundo-branco{
+    background-color: #FFFFFF;
+}
+
+#fundo-branco1{
+    background-color: #FFFFFF;
+    margin-block-end: 25px;
+}
+
+#passo1{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 50%;
+}
+
+#passo2{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 40%;
+}
+
+#passo3{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 80%;
+}
+
+#passo4{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 70%;
+}
+
+#titulos-burndown{
     font-family: 'Roboto Slab';
-    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #004854;
+    margin-top: 20px;
+}
+
+#titulo-principal{
+    font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 32px;
-    line-height: 150%;
     color: #004854;
-    word-wrap: break-word;
+    margin-top: 20px;
 }
 
-#nro{
-    padding: 5px;
+#para-justificado{
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
 }
 
-#fim{
-    padding-top: 10px;
+.img-fluid{
+    margin-top: 25px;
+    margin-block-end: 25px;
+    width: 100%;
+    height: 20%;
+}
+
+#nums{
+    width: 85px;
+    margin-top: 15%;
+}
+
+#img-complementar{
+    width: 40%;
+    margin-block-end: 25px;
 }
 
 #foot{
@@ -151,10 +208,18 @@ header, .navbar{
     border-top: 1rem solid #666666;
 }
 
-#contact-area1{
-    padding: 0px;
+#fatec-logo{
+    margin-top: 12px;
 }
 
-#ponto{
-    color: #D9D9D9;
+#cps-logo{
+    margin-top: 8px;
+}
+
+#siga-logo{
+    margin-top: 5px;
+}
+
+#gsp-logo{
+    margin-top: 5px;
 }
