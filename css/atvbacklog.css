@@ -1,18 +1,25 @@
 html, body {
-  height: 100%;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+#titulo {
+  text-align: center;
 }
 
 #tabela {
   overflow-x: auto;
   display: flex;
+  max-height: 40vh;
 }
 
 #base-atv, #cont-atv {
-  height: 100%;
+  height: 74vh;
 }
 
 table {
     border-collapse: collapse;
+    overflow-y: auto;
   }
 
   th, td {
@@ -47,11 +54,4 @@ table {
 #newline {
   margin: auto;
   border-radius: 10px;
-}
-
-footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  background-color: white;
 }

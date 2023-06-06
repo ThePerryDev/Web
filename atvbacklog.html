@@ -35,39 +35,62 @@
       rel="stylesheet"
     />
     <!--BOOTSTRAP CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!--BOOTSTRAP JS-->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
     <!-- Font Awesome -->
 
-    <link rel="stylesheet" href="css/atvbacklog.css">
+    <link rel="stylesheet" href="css/atvbacklog.css" />
     <script
       src="https://kit.fontawesome.com/bf7e05c402.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/atvbacklog.js"></script>
   </head>
 
   <body>
-    <!--BARRA DE NAVEGAÇÃO BRUNO MENDES-->
-    <header>        
+    <header>
       <nav class="navbar navbar" id="nav1">
-        <a href="file:///C:/Users/LAB-79/Desktop/Web/index.html" class="navbar-brand"><img src="./img/fatec.png" alt="Logo do Cliente"></a>
-      </nav>   
+        <a
+          href="file:///C:/Users/LAB-79/Desktop/Web/index.html"
+          class="navbar-brand"
+          ><img src="./img/fatec.png" alt="Logo do Cliente"
+        /></a>
+      </nav>
     </header>
-
-    <!--CONTEÚDO-->
+    <main>
       <div class="container-fluid" id="base-atv">
         <div class="container" id="cont-atv">
           <div class="row">
             <div id="titulo">
               <h1>Monte seu backlog</h1>
-              <p>A primeira linha é apenas um exemplo a ser seguido</p>
+              <p>A primeira linha é apenas um exemplo a ser seguido <br>
+                Procure descrever as atividades do seu dia a dia como primeiro Product Backlog
+              </p>
             </div>
-            <div id="tabela">
+            <div class="col-md-1"></div>
+            <div id="tabela" class="col-md-9">
               <table>
                 <thead>
                   <tr>
@@ -89,17 +112,17 @@
                     <td>Baixa</td>
                   </tr>
                   <tr>
-                    <td><input type="text"></td>
+                    <td><input type="text" /></td>
                     <td>
                       <select name="Status">
                         <option value="">status...</option>
                         <option value="">Feito</option>
                         <option value="">Em andamento</option>
                         <option value="">Não iniciado</option>
-                    </select>
+                      </select>
                     </td>
-                    <td><input type="date"></td>
-                    <td><input type="date"></td>
+                    <td><input type="date" /></td>
+                    <td><input type="date" /></td>
                     <td>
                       <select name="SP">
                         <option value="">pontos...</option>
@@ -108,7 +131,7 @@
                         <option value="">8</option>
                         <option value="">13</option>
                         <option value="">21</option>
-                    </select>
+                      </select>
                     </td>
                     <td>
                       <select name="Prioridade">
@@ -116,53 +139,19 @@
                         <option value="">Alta</option>
                         <option value="">Média</option>
                         <option value="">Baixa</option>
-                    </select>
+                      </select>
                     </td>
                   </tr>
                 </tbody>
-              </table> 
-              <script>
-                function novalinha() {
-                let atividade = document.getElementById()
-                
-                
-                  // cria uma linha
-                let linha = document.createElement("tr");
-                
-                // cria a célula de atividades
-                
-                let colunaatv = document.createElement("td");
-                colunaatv.innerHTML = atividade;
-                linha.appendChild(colunaatv);
-
-                let nomeatv = document.createElement("input");
-                nomeatv.innerHTML = nomeatividade;
-                linha.appendChild(nomeatv);
-
-                // cria uma célula
-                let multiplicador = document.createElement("td");
-                multiplicador.innerHTML;
-                linha.appendChild(multiplicador);
-                // cria uma célula
-                let resultado = document.createElement("td");
-                resultado.innerHTML;
-                linha.appendChild(resultado);
-        
-                document.getElementById("corpo").appendChild(linha);
-                }
-              </script>
-              <button id="newline" onclick="novalinha()">Criar Linha</button>
+              </table>
             </div>
-            <div>
-              <a id="botao-v" href="telaCurso.html">Voltar</a>
+            <div class="col-md-2">
+              <button id="newline" onclick="novalinha()">Criar Linha</button>
             </div>
           </div>
         </div>
-      </div>  
-          
-
-    <!--RODAPÉ RAFAEL ESTEVAM-->
-
+      </div>
+    </main>
     <footer>
       <div id="contact-area">
         <div class="container-fluid" id="contact-area1">
