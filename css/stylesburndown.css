@@ -80,6 +80,12 @@ header, .navbar{
     padding: 1rem .8rem;
 }
 
+#down-menu, #atv-menu{
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 .custom-padding {
     padding-left: 15px;
     padding-right: 15px;
@@ -216,8 +222,4 @@ header, .navbar{
 
 #gsp-logo{
     margin-top: 5px;
-}
-
-#contact-area1{
-    padding: 0px;
 }

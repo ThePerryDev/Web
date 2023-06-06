@@ -82,6 +82,12 @@ header, .navbar{
     padding: 1rem .8rem;
 }
 
+#down-menu, #atv-menu{
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 .custom-padding {
     padding-left: 15px;
     padding-right: 15px;

@@ -76,9 +76,14 @@ header, .navbar{
     font-size: 20px;
 }
     
-    
 .navbar-expand-lg .navbar .nav-link {
     padding: 1rem .8rem;
+}
+
+#down-menu, #atv-menu{
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .custom-padding {
@@ -166,8 +171,4 @@ header, .navbar{
 
 #gsp-logo{
     margin-top: 5px;
-}
-
-#contact-area1{
-    padding: 0px;
 }
