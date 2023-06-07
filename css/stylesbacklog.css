@@ -1,0 +1,234 @@
+#base-atv{
+  background-color: #f0f0f0;
+}
+
+#cont-atv{
+  background-color: #d9d9d9;
+}
+
+#cont2-atv{
+  background-color: white;
+  width: 10;
+}
+
+#img-k01{
+  border-radius: 40px;
+  width: 50vw;
+  border: 1px solid #7e0000;
+}
+
+#passo{
+  padding-top: 20px;
+}
+
+#subtitulo{
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #004854;
+  word-wrap: break-word;
+}
+
+html,
+body{
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#titulo{
+  text-align: center;
+}
+
+#tabela{
+  overflow-x: auto;
+  display: flex;
+  max-height: 40vh;
+}
+
+#base-atv,
+#cont-atv{
+  height: 74vh;
+}
+
+#base-atv{
+  background-color: #f0f0f0;
+}
+
+#cont-atv{
+  background-color: #d9d9d9;
+}
+
+#cont2-atv{
+  background-color: white;
+  width: 10;
+}
+
+.navbar-toggler{
+  right: 66px;
+}
+
+button.navbar-toggler{
+  margin-right: 100px;
+}
+
+.navbar-brand{
+  margin-left: 30px;
+}
+
+#nav1{
+  border-bottom: 25px solid #666666;
+  border-top: 25px solid #7e0000;
+}
+
+#rowCinza{
+  border: #000;
+  height: 25px;
+  background-color: #666666;
+}
+
+header,
+.navbar{
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.navbar-brand{
+  left: 66px;
+  color: #ffffff;
+  padding-top: 0px;
+}
+
+#nav2{
+  height: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar-brand:hover{
+  color: #000000;
+}
+
+#navbar-links a{
+  color: #000;
+  font-size: 18px;
+}
+
+#navbar-links a:hover{
+  background-color: #f5a0a071;
+  color: #000000;
+  box-shadow: 0px 0px 10px #0000004e;
+  font-size: 20px;
+}
+
+#down-menu,
+#atv-menu{
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-expand-lg .navbar .nav-link{
+  padding: 1rem 0.8rem;
+}
+
+.custom-padding{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#img-k01{
+  border-radius: 40px;
+  width: 50vw;
+  border: 1px solid #7e0000;
+}
+
+#home-menu,
+#modulo-menu,
+#down-menu{
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#passo{
+  padding-top: 20px;
+}
+
+#subtitulo{
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #004854;
+  word-wrap: break-word;
+}
+
+table{
+  border-collapse: collapse;
+  overflow-y: auto;
+}
+
+th,
+td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+th{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+input{
+  border: none;
+  background-color: whitesmoke;
+}
+
+#botao-v{
+  display: inline-block;
+  background: #7e0000;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 20px;
+  font-size: 1.3vw;
+  margin-top: 10px;
+  font-family: "Merriweather";
+}
+
+#newline{
+  margin: auto;
+  border-radius: 10px;
+}
+
+#foot{
+  width: 100%;
+  border-bottom: 1rem solid #7e0000;
+  border-top: 1rem solid #666666;
+  margin: 0px;
+}
+
+#fatec-logo{
+  margin-top: 12px;
+}
+
+#cps-logo{
+  margin-top: 8px;
+}
+
+#siga-logo{
+  margin-top: 5px;
+}
+
+#gsp-logo{
+  margin-top: 5px;
+}
+
+#contact-area1{
+  padding: 0px;
+}

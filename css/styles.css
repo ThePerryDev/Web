@@ -1,370 +1,454 @@
-/*GERAIS*/
 .body{
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .row{
-    margin: 0px;
-    margin-right: 0px;
+  margin: 0px;
+  margin-right: 0px;
 }
 
 .container{
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-p, li {
-    color:black ;
+p,
+li{
+  color: black;
 }
 
-/* --------------------------------------- TELA INICIAL -----------------------------------------------------------------------------*/
-
-/*BARRA DE NAVEGAÇÃO BRUNO MENDES*/
 .navbar-toggler{
-
-    right: 66px;
-    }
-
-    button.navbar-toggler {
-        margin-right: 100px;
-    }
-
-    .navbar-brand { 
-        margin-left: 30px;
-    }
- 
-    #nav1{
-    border-bottom: 25px solid #666666 ;
-    border-top: 25px solid #7E0000;
-    
-    }
-    
-    #rowCinza{
-    
-    border: #000;
-    height: 25px;
-    background-color: #666666;
-    }
-    
-    header, .navbar{
-    z-index: 1;
-    background-color: #FFFFFF;
-    
-    }
-    
-    .navbar-brand{
-    left: 66px;
-    color: #FFFFFF;
-    padding-top: 0px;
-    }
-    
-    #nav2{
-    height: auto;
-    padding-left: 25px   ;
-    padding-right: 25px;
-    }
-    
-    .navbar-brand:hover {
-    color: #000000;   
-    }
-    
-    #navbar-links a{
-    color: #000;
-    font-size: 18px;
-    }
-
-    #navbar-links a:hover {
-    background-color: #f5a0a071; /* Cor de fundo alterada */
-    color: #000000; /* Cor do texto alterada */
-    box-shadow: 0px 0px 10px #0000004e; /* Sombra adicionada */
-    font-size: 20px;
-    }
-
-    #down-menu, #atv-menu{
-        text-decoration: none;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-    
-    .navbar-expand-lg .navbar .nav-link {
-    padding: 1rem .8rem;
-    }
-
-    .custom-padding {
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-
-    
-    
-/*APRENDA SCRUM BIANCA LUCAS */
-
-#base-verde {
-    background-color: #004854;
-    padding-top: 0px;
+  right: 66px;
 }
 
-#para-scrum {
-    color: white;
-    width: 100%;
-    font-weight: 600;
-    font-size: 200%;
-    margin-top: 8%;
-    line-height: 54px;
-    font-family: 'Lexend';
+button.navbar-toggler{
+  margin-right: 100px;
 }
 
-#titulo-aprenda {
-    color: white;
-    font-size: 250%;
-    font-weight: 550;
-    font-family: 'Lexend';
+.navbar-brand{
+  margin-left: 30px;
 }
 
-#margem1 {
-    margin-top: 5%;
-    margin-left:-1%;
+#nav1{
+  border-bottom: 25px solid #666666;
+  border-top: 25px solid #7e0000;
 }
 
-#margem2 {
-    margin-top: 8%;
-    margin-left: 1%;
-
+#rowCinza{
+  border: #000;
+  height: 25px;
+  background-color: #666666;
 }
 
-#imgscrum {
-    width: 100%;
+header,
+.navbar{
+  z-index: 1;
+  background-color: #ffffff;
 }
 
-#container {
-    align-items: center;
+.navbar-brand{
+  left: 66px;
+  color: #ffffff;
+  padding-top: 0px;
 }
-/*NOSSO CURSO BIANCA LUCAS*/
+
+#nav2{
+  height: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar-brand:hover{
+  color: #000000;
+}
+
+#navbar-links a{
+  color: #000;
+  font-size: 18px;
+}
+
+#navbar-links a:hover{
+  background-color: #f5a0a071;
+  color: #000000;
+  box-shadow: 0px 0px 10px #0000004e;
+  font-size: 20px;
+}
+
+#down-menu,
+#atv-menu{
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-expand-lg .navbar .nav-link{
+  padding: 1rem 0.8rem;
+}
+
+.custom-padding{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#base-verde{
+  background-color: #004854;
+  padding-top: 0px;
+}
+
+#para-scrum{
+  color: white;
+  width: 100%;
+  font-weight: 600;
+  font-size: 200%;
+  margin-top: 8%;
+  line-height: 54px;
+  font-family: "Lexend";
+}
+
+#titulo-aprenda{
+  color: white;
+  font-size: 250%;
+  font-weight: 550;
+  font-family: "Lexend";
+}
+
+#margem1{
+  margin-top: 5%;
+  margin-left: -1%;
+}
+
+#margem2{
+  margin-top: 8%;
+  margin-left: 1%;
+}
+
+#imgscrum{
+  width: 100%;
+}
+
+#container{
+  align-items: center;
+}
+
 #base-cinza{
-    background-color: #F0F0F0;
-    padding: 0px;
-    background-image: url(../img/cps-fundo.png);
-    background-repeat: repeat-y;
+  background-color: #f0f0f0;
+  padding: 0px;
+  background-image: url(../img/cps-fundo.png);
+  background-repeat: repeat-y;
 }
 
-#imagem-carousel {
-    width: 60%;
-    height: 100%;
+#imagem-carousel{
+  width: 60%;
+  height: 100%;
 }
-
-
 
 #paraCurso{
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: justify;
-    margin-top: 10%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: justify;
+  margin-top: 10%;
 }
 
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+.carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill= 'dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+.carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill= 'dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
-/*BOTÃO SAIBA MAIS BIANCA LUCAS */
+#saiba-mais{
+  background: #7e0000;
+  color: #fff;
+  border-radius: 25px;
+  border: 0;
 
-#saiba-mais {
-	background: #7E0000;
-    color: #fff;
-    border-radius: 25px;
-    border: 0;
+  font-size: 200%;
 
-    font-size: 200%;
+  padding: 5% 5%;
 
-    padding: 5% 5%;
-
-    margin-top: 22%;
-    margin-block-end: 20%;
-    font-family: 'Merriweather';
+  margin-top: 22%;
+  margin-block-end: 20%;
+  font-family: "Merriweather";
 }
 
-#saiba-mais:hover {
-	background: #943636;
-    color: #fff;
-    border-radius: 25px;
-    border: 0;
+#saiba-mais:hover{
+  background: #943636;
+  color: #fff;
+  border-radius: 25px;
+  border: 0;
 
-    font-size: 200%;
+  font-size: 200%;
 
-    padding: 5% 5%;
+  padding: 5% 5%;
 
-    margin-top: 22%;
-    margin-block-end: 20%;
-    font-family: 'Merriweather';
+  margin-top: 22%;
+  margin-block-end: 20%;
+  font-family: "Merriweather";
 }
-
-/*ATIVIDADE BURNDOWN BIANCA LUCAS*/
 
 #fundo-burndown{
-    background-color: #D9D9D9;
-    padding: 0px 30px;
+  background-color: #d9d9d9;
+  padding: 0px 30px;
 }
 
 #fundo-branco{
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #fundo-branco1{
-    background-color: #FFFFFF;
-    margin-block-end: 25px;
+  background-color: #ffffff;
+  margin-block-end: 25px;
 }
 
 #passo1{
-    margin-top: 25px;
-    margin-block-end: 25px;
-    width: 50%;
+  margin-top: 25px;
+  margin-block-end: 25px;
+  width: 50%;
 }
 
 #passo2{
-    margin-top: 25px;
-    margin-block-end: 25px;
-    width: 40%;
+  margin-top: 25px;
+  margin-block-end: 25px;
+  width: 40%;
 }
 
 #passo3{
-    margin-top: 25px;
-    margin-block-end: 25px;
-    width: 80%;
+  margin-top: 25px;
+  margin-block-end: 25px;
+  width: 80%;
 }
 
 #passo4{
-    margin-top: 25px;
-    margin-block-end: 25px;
-    width: 70%;
+  margin-top: 25px;
+  margin-block-end: 25px;
+  width: 70%;
 }
 
 #titulos-burndown{
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 28px;
-    color: #004854;
-    margin-top: 20px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 28px;
+  color: #004854;
+  margin-top: 20px;
 }
 
 #titulo-principal{
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 32px;
-    color: #004854;
-    margin-top: 20px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 32px;
+  color: #004854;
+  margin-top: 20px;
 }
 
 #para-justificado{
-    text-align: justify;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 400;
+  text-align: justify;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .img-fluid{
-    margin-top: 25px;
-    margin-block-end: 25px;
-    width: 100%;
-    height: 20%;
+  margin-top: 25px;
+  margin-block-end: 25px;
+  width: 100%;
+  height: 20%;
 }
 
 #nums{
-    width: 85px;
-    margin-top: 15%;
+  width: 85px;
+  margin-top: 15%;
 }
 
 #img-complementar{
-    width: 40%;
-    margin-block-end: 25px;
+  width: 40%;
+  margin-block-end: 25px;
 }
 
-/*CARD MÓDULOS MARIANA RAMALHO*/
-#carta01, #carta02, #carta03 {
-    margin-bottom: 30px;
+#carta01,
+#carta02,
+#carta03{
+  margin-bottom: 30px;
 }
 
 #cardTop{
-	background-color:#004854;
-	font-family: 'Roboto Slab';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 32px;
-	line-height: 150%;
-	color: #FFFFFF;
+  background-color: #004854;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #ffffff;
 }
 
 #card-titulo{
-	font-family: 'Roboto', sans-serif;
-	color:black;
-	text-align: left;
-	overflow-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-align: left;
+  overflow-wrap: break-word;
 }
 
 #card-text{
-	font-family: 'Roboto', sans-serif;
-	color:black;
-	font-size: 20px;
-	text-align: left;
-	overflow-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  overflow-wrap: break-word;
 }
 
 #cardli{
-	font-family: 'Roboto', sans-serif;
-	color:black;
-	font-weight: 400;
-	font-size: 20px
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 #botaoiniciar{
-	background-color: #7e0000;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 150%;
-	width: 320px;
-	height: 80px;
-	border: 0px;
+  background-color: #7e0000;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  width: 320px;
+  height: 80px;
+  border: 0px;
 }
 
-/*OS DESENVOLVEDORES WILLIAN GARCIA E LUIS EDUARDO*/
-
 #texto-dev p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
-    color: #292929;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #292929;
 }
 
 #texto-dev h1{
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 150%;
-    color: #004854;
-    word-wrap: break-word;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #004854;
+  word-wrap: break-word;
 }
 
 #dese{
-    background-color: #F0F0F0;
-    background-image: url("../img/cps-fundo.png");
-    background-repeat: repeat-y;
+  background-color: #f0f0f0;
+  background-image: url("../img/cps-fundo.png");
+  background-repeat: repeat-y;
 }
 
-/*CARDS TIME THEPERRYDEVS*/
-
 #teamcardtotal{
-    width: 510px;
-    height: 455px;
+  width: 510px;
+  height: 455px;
+  border: hidden;
+  background-color: transparent;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+}
+
+#teamcardheader{
+  position: relative;
+  width: 350px;
+  height: 130px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+}
+
+#teamcardbody{
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: white;
+  border-top: 10px solid #004854;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#teamimgBx{
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  background: black;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+
+#teamimgBxphoto{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+
+#teamcardcontent{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#teamcarddetails{
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+#teamcarddetailsh2{
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #292929;
+  line-height: 2.55em;
+}
+
+#teamcarddetailsspan{
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 0.75em;
+}
+
+#proximo{
+  left: inherit;
+  right: 0%;
+}
+
+#voltar{
+  right: inherit;
+  left: 0%;
+}
+
+@media (max-width: 1155px){
+  #teamcardtotal{
+    width: 350px;
+    height: 380px;
     border: hidden;
     background-color: transparent;
     border-bottom-left-radius: 50px;
@@ -373,21 +457,21 @@ p, li {
     justify-content: center;
     align-items: center;
     resize: both;
-}
+  }
 
-#teamcardheader{
+  #teamcardheader{
     position: relative;
-    width: 350px;
-    height:130px;
+    width: 250px;
+    height: 95px;
     background-color: transparent;
     border: none;
     display: flex;
-}
+  }
 
-#teamcardbody{
+  #teamcardbody{
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     background: white;
     border-top: 10px solid #004854;
     border-top-left-radius: 5px;
@@ -397,394 +481,134 @@ p, li {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-#teamimgBx{
+  #teamimgBx{
     position: absolute;
     left: 50%;
-    top: -100px;
+    top: -85px;
     transform: translateX(-50%);
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background: black;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
-}
+  }
 
-#teamimgBxphoto{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: flex;
-}
-
-#teamcardcontent{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-#teamcarddetails{
-    padding: 50px;
-    text-align: center;
-    width: 100%;
-}
-
-#teamcarddetailsh2{
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-size: 1.50em;
-    font-weight: 700;
-    color: #292929;
-    line-height: 2.55em;
-}
-
-#teamcarddetailsspan{
-    font-family: 'Roboto Slab';
+  #teamcarddetailsh2{
+    font-family: "Roboto Slab";
     font-style: normal;
     font-size: 1em;
     font-weight: 700;
-    line-height: 0.75em;
+    color: #292929;
+    line-height: 3.5em;
+  }
+
+  #teamcarddetailsspan{
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 4em;
+  }
+
+  #teamcarddetails{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+  }
 }
 
-#proximo{
-    left:inherit;
-    right: 0%;
-}
-
-#voltar{
-    right: inherit;
-    left: 0%;
-}
-
-@media(max-width: 1155px){
-    #teamcardtotal{
-        width: 350px;
-        height: 380px;
-        border: hidden;
-        background-color: transparent;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        resize: both;
-    }
-    
-    #teamcardheader{
-        position: relative;
-        width: 250px;
-        height:95px;
-        background-color: transparent;
-        border: none;
-        display: flex;
-    }
-    
-    #teamcardbody{
-        position: relative;
-        width: 250px;
-        height: 250px;
-        background: white;
-        border-top: 10px solid #004854;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #teamimgBx{
-        position: absolute;
-        left: 50%;
-        top: -85px;
-        transform: translateX(-50%);
-        width: 150px;
-        height: 150px;
-        background: black;
-        border-radius: 50%;
-        overflow: hidden;
-        display: flex;
-    }
-
-    #teamcarddetailsh2{
-        font-family: 'Roboto Slab';
-        font-style: normal;
-        font-size: 1em;
-        font-weight: 700;
-        color: #292929;
-        line-height: 3.5em;
-    }
-    
-    #teamcarddetailsspan{
-        font-family: 'Roboto Slab';
-        font-style: normal;
-        font-size: 0.9em;
-        font-weight: 700;
-        line-height: 4em;
-    }
-
-    #teamcarddetails{
-        padding: 30px;
-        text-align: center;
-        width: 100%;
-    }
-}
-
-    
-
-/*CONTATO RAFAEL ESTEVAM*/
 #ctt-bg{
-    background-color: #004854;
+  background-color: #004854;
 }
 
 #titulo-ctt{
-    text-align: center ;
-    color: #FFFFFF;
-    font-size: 48px;
-    font-weight: 550;
-    font-family: 'Lexend';
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 550;
+  font-family: "Lexend";
 }
 
 #img-git{
-    width: 90%;
+  width: 90%;
 }
 
 #img-ctt{
-    width: 90%;
+  width: 90%;
 }
 
-/*RODAPÉ RAFAEL ESTEVAM*/
 #foot{
-    width: 100%;
-    border-bottom: 1rem solid #7E0000;
-    border-top: 1rem solid #666666;
+  width: 100%;
+  border-bottom: 1rem solid #7e0000;
+  border-top: 1rem solid #666666;
 }
 
 #fatec-logo{
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 #cps-logo{
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 #siga-logo{
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #gsp-logo{
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #contact-area1{
-    padding: 0px;
+  padding: 0px;
 }
 
-
-/* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
-
-
-/*BARRA DE NAVEGAÇÃO HECLAIR & WILLIAN */
-#navBarT1{
-    position: relative;
-    width: 100%;
-    background-color: #FFFFFF;
-    height: 75px;
-    z-index: 4;
-    padding: 0;
-    border: none;
+#contato-nome,
+#contato-email{
+  float: left;
+  width: 100%;
+  margin-bottom: 3vh;
+  box-shadow: white 0px 3px;
+  height: 5vh;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-#logotelacurso{
-    position: relative;
-    width: 100%;
-    padding: 0;
-    border: none;
+#contato-mensagem{
+  float: left;
+  width: 100%;
+  margin-bottom: 3vh;
+  box-shadow: white 0px 3px;
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
 }
 
-#navBarT2{
-    position: relative;
-    background-color: #7E0000;
-    width: 100%;
-    padding: 3px;
-    border-bottom: 25px solid #666666;
+#contato-enviar{
+  background: #7e0000;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: auto;
+  margin-top: 10px;
+  max-height: 68px;
+  max-width: 240px;
+  font-family: "Merriweather";
+  float: right;
+  margin-top: 1.7vh;
 }
 
-#redcenter{
-    position: relative;
-    width: 100%;
-    padding: 0;
+#github{
+  float: left;
 }
 
-#TM1{
-    margin-right: 1%;
-    color: #F0F0F0;
-}
-
-#volta, #continua{
-    margin-top: 25%;
-    margin-block-end: 25%;
-}
-
-
-/*CARROSSEL LUIS EDUARDO*/
-
-#indicadores{
-    bottom: -20px;
-}
-
-#Slideb{
-    position: relative;
-}
-
-#pagina{
-    background-color: #D9D9D9;
-    max-height: max-content;
-    background-image: url(../img/fundocinzafull.png);
-    background-repeat: repeat-x;
-    background-position:center;
-    background-size: 40%;
-}
-
-#meuCarrossel{
-    border-radius: 30px;
-    padding-top: 10px;
-}
-
-#continua{
-    right: -5%;
-}
-
-#volta{
-    left: -5%;
-}
-
-@media(max-width: 570px){
-        #pagina{
-        background-color: #D9D9D9;
-        max-height: max-content;
-        background-image: url(../img/fundocinzafull.png);
-        background-repeat: repeat-x;
-        background-position:inherit;
-    }
-}
-/*BOTÕES DANIEL DORNELAS */
-
-
-#home-button, #home-button2, #home-button3,
-#mod1-button, #mod1-button2, 
-#mod2-button, #mod2-button2, 
-#mod3-button {
-
-    background: #7E0000;
-	color: white;
-    border-radius: 15px;
-    border: none;
-    padding: 5px 15px 5px 15px;
-    height: auto;
-    margin-top: 10px;
-    font-family: 'Merriweather';
-    font-size: 1.5vw;
-}
-
-/* CONTACT AREA - DANIEL DORNELAS */
-
-#contato-nome, #contato-email {
-    float: left;
-    width: 100%;
-    margin-bottom: 3vh;
-    box-shadow: white 0px 3px;
-    height: 5vh;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-#contato-mensagem {
-    float: left;
-    width: 100%;
-    margin-bottom: 3vh;
-    box-shadow: white 0px 3px;
-    height: 20vh;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
-}
-
-#contato-enviar {
-    background: #7E0000;
-	color: white;
-    border-radius: 15px;
-    border: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: auto;
-    margin-top: 10px;
-    max-height: 68px;
-    max-width: 240px;
-    font-family: 'Merriweather';
-    float: right;
-    margin-top: 1.7vh;
-}
-
-#github {
-    float: left;
-}
-
-#img-ctt {
-    margin-top: 8vh;
-}
-
-/*RODAPÉ RAFAEL ESTEVAM */
-/*
-#fatec-logo, #cps-logo, #siga-logo, #gsp-logo{
-    size: 1vw;
-}
-
-#foot2{
-    background-color: #D9D9D9;
-}
-
-/*PÁGINA ATIVIDADES*/
-
-#base-atv{
-    background-color: #F0F0F0;
-}
-
-#cont-atv{
-    background-color: #D9D9D9;
-}
-
-#cont2-atv{
-    background-color: white;
-    width: 10;
-}
-
-#img-k01{
-    border-radius: 40px;
-    width: 50vw;
-    border: 1px solid #7E0000;
-}
-
-#passo{
-    padding-top: 20px;
-}
-
-#subtitulo{
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 150%;
-    color: #004854;
-    word-wrap: break-word;
+#img-ctt{
+  margin-top: 8vh;
 }
