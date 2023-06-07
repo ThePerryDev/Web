@@ -1,182 +1,186 @@
 body{
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .row{
-    margin: 0px;
-    margin-right: 0px;
+  margin: 0px;
+  margin-right: 0px;
 }
 
 .container{
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-p, li {
-    color:black ;
+p,
+li{
+  color: black;
 }
 
 .navbar-toggler{
-    right: 66px;
+  right: 66px;
 }
 
-button.navbar-toggler {
-        margin-right: 100px;
+button.navbar-toggler{
+  margin-right: 100px;
 }
 
-.navbar-brand { 
-        margin-left: 30px;
-}
- 
-#nav1{
-    border-bottom: 25px solid #666666 ;
-    border-top: 25px solid #7E0000;
-}
-    
-#rowCinza{
-    border: #000;
-    height: 25px;
-    background-color: #666666;
-}
-    
-header, .navbar{
-    z-index: 1;
-    background-color: #FFFFFF;
-}
-    
 .navbar-brand{
-    left: 66px;
-    color: #FFFFFF;
-    padding-top: 0px;
+  margin-left: 30px;
 }
-    
+
+#nav1{
+  border-bottom: 25px solid #666666;
+  border-top: 25px solid #7e0000;
+}
+
+#rowCinza{
+  border: #000;
+  height: 25px;
+  background-color: #666666;
+}
+
+header,
+.navbar{
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.navbar-brand{
+  left: 66px;
+  color: #ffffff;
+  padding-top: 0px;
+}
+
 #nav2{
-    height: auto;
-    padding-left: 25px   ;
-    padding-right: 25px;
+  height: auto;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-    
-.navbar-brand:hover {
-    color: #000000;   
+
+.navbar-brand:hover{
+  color: #000000;
 }
-    
+
 #navbar-links a{
-    color: #000;
-    font-size: 18px;
+  color: #000;
+  font-size: 18px;
 }
 
-#navbar-links a:hover {
-    background-color: #f5a0a071;
-    color: #000000;
-    box-shadow: 0px 0px 10px #0000004e;
-    font-size: 20px;
+#navbar-links a:hover{
+  background-color: #f5a0a071;
+  color: #000000;
+  box-shadow: 0px 0px 10px #0000004e;
+  font-size: 20px;
 }
 
-.navbar-expand-lg .navbar .nav-link {
-    padding: 1rem .8rem;
+.navbar-expand-lg .navbar .nav-link{
+  padding: 1rem 0.8rem;
 }
 
-#down-menu, #atv-menu{
-    text-decoration: none;
-    padding-top: 8px;
-    padding-bottom: 8px;
+#home-menu,
+#modulo-menu,
+#down-menu{
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-.custom-padding {
-    padding-left: 15px;
-    padding-right: 15px;
+.custom-padding{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #con{
-    padding-top: 11px;
-    padding-bottom: 11px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 #texto{
-    padding-left: 7%;
+  padding-left: 7%;
 }
 
 #paragrafo{
-    padding-left: 3%;
+  padding-left: 3%;
 }
 
 #lista{
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .img-fluid{
-    width: 80%;
-    padding-bottom: 15px;
-    padding-top: 15px;
+  width: 80%;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 #base-atvd{
-    background-color: #F0F0F0;
-    background-image: url("../img/cps-fundo.png");
-    background-repeat: repeat-y;
+  background-color: #f0f0f0;
+  background-image: url("../img/cps-fundo.png");
+  background-repeat: repeat-y;
 }
 
 #cont-atvd{
-    background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 #cont-atvd1{
-    background-color: #D9D9D9;
-    padding-bottom: 0px;
+  background-color: #d9d9d9;
+  padding-bottom: 0px;
 }
 
 #cont3-atv{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #pastas{
-    width: 140px;
-    height: 160px;
+  width: 140px;
+  height: 160px;
 }
 
-@media (max-width: 575.99px){
-    .img-fluid-small{
-        width: 70%;
-        padding-bottom: 15px;
-        padding-top: 15px;
-    }
+@media(max-width: 575.99px){
+  .img-fluid-small{
+    width: 70%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
 
-    #texto{
-        padding-left: 3%;
-    }
-    
-    #paragrafo{
-        padding-left: 7%;
-    }
+  #texto{
+    padding-left: 3%;
+  }
 
-    #cont-atvd{
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
+  #paragrafo{
+    padding-left: 7%;
+  }
+
+  #cont-atvd{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 
 #foot{
-    width: 100%;
-    border-bottom: 1rem solid #7E0000;
-    border-top: 1rem solid #666666;
+  width: 100%;
+  border-bottom: 1rem solid #7e0000;
+  border-top: 1rem solid #666666;
 }
 
 #fatec-logo{
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 #cps-logo{
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 #siga-logo{
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #gsp-logo{
-    margin-top: 5px;
+  margin-top: 5px;
 }
