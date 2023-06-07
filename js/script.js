@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
       tableBody.appendChild(newRow);
     });
 });
+
 function novalinha(){
   var statusopcoes = ["Status...", "Feito", "Em andamento", "Não iniciado"];
   var storypointsopcoes = ["pontos...", "3", "5", "8", "13", "21"];
@@ -84,3 +85,4 @@ function novalinha(){
   }
   document.getElementById("corpo").appendChild(linha);
 }
+
